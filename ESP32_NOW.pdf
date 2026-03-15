@@ -1,3 +1,32 @@
+ESP-NOW is a fast and low power way for devices to talk to each other without needing a Wi-Fi router. This is because ESP-NOW is a connectionless communication protocol that was made by Espressif Systems for ESP32 and ESP8266 boards. ESP-NOW allows devices to send data to each other quickly which is great for things like smart home sensors and remote controls.
+
+So what kind of range can ESP-NOW handle?
+
+Well it depends on the situation.
+
+In a field with the antennas that come on the board ESP-NOW can usually send data between 220 and 400 meters.
+
+If everything is perfect like in an open space with no obstacles ESP-NOW can send data up to 650 meters or more.
+
+There is a long range mode that lets ESP-NOW send data over 900 meters which is almost a kilometer but this does make the data rate slower.
+
+If you are inside ESP-NOW can usually send data between 40 and 100 meters depending on the walls and things that are in the way.
+
+
+Some of the things about ESP-NOW are that it does not need Wi-Fi to work, which means devices can connect directly to each other.
+
+This makes ESP-NOW really fast so data gets sent instantly.
+
+ESP-NOW is also really good at saving power, which's great for devices that run on batteries.
+
+ESP-NOW can send messages that are encrypted or not encrypted.
+
+The normal speed of ESP-NOW is 1 megabit per second. In open spaces it can actually send data at around 214 kilobits, per second.
+
+If you use antennas and point them in the right direction you can make ESP-NOW send data even farther.
+
+
+
 Working Mechanism of ESP-
 
 The working mechanism of ESP-NOW on devices like the ESP32 is based on direct communication at the Wi-Fi MAC layer. This means that ESP devices can send wireless packets directly to each other. They do not need to connect to a Wi-Fi router to do this.
